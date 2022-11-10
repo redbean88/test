@@ -1,18 +1,9 @@
-Option Explicit
+636c2793ec8260a5986c7b98
 
-Private Declare Function ShellExecute _
-  Lib "shell32.dll" Alias "ShellExecuteA" ( _
-  ByVal hWnd As Long, _
-  ByVal Operation As String, _
-  ByVal Filename As String, _
-  Optional ByVal Parameters As String, _
-  Optional ByVal Directory As String, _
-  Optional ByVal WindowStyle As Long = vbMinimizedFocus _
-  ) As Long
 
-Public Sub OpenUrl()
 
-    Dim lSuccess As Long
-    lSuccess = ShellExecute(0, "Open", "www.google.com")
+636c79f528e6f2a2cf06b994
 
-End Sub
+
+
+636c9a98ec8260a5986cd2d1
